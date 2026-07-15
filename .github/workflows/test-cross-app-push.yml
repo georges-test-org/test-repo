@@ -32,7 +32,7 @@ jobs:
           registry: ghcr.io
           # Replace 'your-github-username' with the actual username of the account that created the PAT
           username: georgeorellanaDA
-          password: ${{ secrets.CROSS_ORG_PAT }}
+          password: ${{ secrets.CROSS_ORG_SECRET}}
 
       # Step 5: Build and Push to the destination organization
       - name: Build and Push Dummy Image
