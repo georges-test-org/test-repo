@@ -26,7 +26,7 @@ jobs:
         uses: docker/setup-buildx-action@v3
       - name: Check if secret is populated
         run: |
-            if [ -z "${{ secrets.CROSS_ORG_PAT }}" ]; then
+            if [ -z "${{ secrets.CROSS_ORG_SECRET }}" ]; then
             echo "::error::CROSS_ORG_PAT is empty or does not exist!"
             exit 1
             else
