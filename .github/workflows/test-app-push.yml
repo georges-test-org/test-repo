@@ -51,4 +51,4 @@ jobs:
           file: ./Dockerfile
           push: true
           # Notice the all-lowercase path pointing to the target org
-          tags: ghcr.io/dach-ny/temp/temp/components/dpm:latest
+          tags: ghcr.io/georges-secret-test-org/temp/temp/components/dpm:latest
