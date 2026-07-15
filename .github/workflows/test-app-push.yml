@@ -19,7 +19,7 @@ jobs:
         with:
           app-id: ${{ secrets.APP_ID }}
           private-key: ${{ secrets.APP_PRIVATE_KEY }}
-          owner: 'dach-ny' # The target organization
+          owner: 'georges-secret-test-org' # The target organization
 
       # Step 3: Dynamically write out a dummy Dockerfile
       - name: Create Dummy Dockerfile
